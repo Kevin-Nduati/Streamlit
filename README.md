@@ -1,0 +1,1 @@
+This Repository contains notes and code as I was learning streamlit. I used Packt's book "Getting Started with Streamlit for Data Science" by Tyler Richards.
