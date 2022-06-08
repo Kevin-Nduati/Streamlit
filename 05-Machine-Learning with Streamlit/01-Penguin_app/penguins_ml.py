@@ -26,11 +26,11 @@ print(f'Accuracy: {score}')
 # variable, which maps the factorized output variable to the species we
 #  recognize. We will save these ojects as pickle files
 output, uniques = pd.factorize(output)
-rf_pickle = open('random_forest_penguin_pickle', 'wb')
+rf_pickle = open('random_forest_penguin.pickle', 'wb')
 pickle.dump(rfc, rf_pickle)
 rf_pickle.close()
-output_pickle = open('ouput_penguin.pickle', 'wb')
-pickle.dump(uniques, ouput_pickle)
+output_pickle = open('output_penguin.pickle', 'wb')
+pickle.dump(uniques, output_pickle)
 output_pickle.close()
 
 # We now have two more files in our folder, a file called 
